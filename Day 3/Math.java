@@ -22,4 +22,14 @@ public class Math {
         throw new UnsupportedOperationException("Unimplemented method 'random'");
     }
 
+    public static char[] min(int a, int b) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'min'");
+    }
+
+    public static char[] max(int a, int b) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'max'");
+    }
+
 }
