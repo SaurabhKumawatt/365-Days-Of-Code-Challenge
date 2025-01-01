@@ -1,3 +1,3 @@
 #365 Days Of Code Challenge
 
-## DSA
+## DSA and Web Development
