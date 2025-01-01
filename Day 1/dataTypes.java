@@ -1,39 +1,50 @@
 public class dataTypes {
-    
-    public static void main(String[] args) {
-        // data types 
-        System.out.println("2 data types");
-        System.out.println("1. primitive and 2. non - primitive");
-        System.out.println("1. primitive");
+    public static void main(String[] args){
 
-        // byte
-        byte age = 21;
-        
-        // short 
-        short number = 332;
-
-        // int
-        int phone = 1234567890;
-
-        //long 
-        long phone2 = 12345678900L;
-
-        // float 
-        float PI = 3.14F;
-
-        //double 
-        double r = 3.45;
-
-        // char
-        char first = 's';
-
-        // boolean 
-        boolean isLoggedIn = true;
+         
+        /*  primitive types
+         *  byte - 1 byte
+         *  short - 2 byte
+         *  int - 4 byte
+         *  long - 8 byte
+         *  float - 4 byte
+         *  double - 8 byte
+         *  char  - 2 byte
+         *  boolean - 1 byte
+         */
 
 
-        System.out.println("2. non - primitive");
+         byte age = 30;
+         short myNum = 32767;
+         int number = 1234567890;
+         long longNum = 12345678900L;
+         float percentage = 59.54F;
+         double per = 55.54;
+         char letter = 's';
+         boolean isLogedIn = true;
 
-        // string
-        String name = "saurabh";
-    }
+        System.out.println(age);
+        System.out.println(myNum);
+        System.out.println(number);
+        System.out.println(longNum);
+        System.out.println(percentage);
+        System.out.println(per);
+        System.out.println(letter);
+        System.out.println(isLogedIn);
+
+        /*
+         * non primitive
+         * string--
+         * array--
+         * Classes
+         * object
+         * interface
+         */
+
+         String name = new String("Saurabh");
+         System.out.println(name);
+
+         int arr[] = {1, 2, 3, 4};
+         System.out.println(arr[0]);
+}
 }
