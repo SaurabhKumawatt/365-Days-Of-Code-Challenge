@@ -1,7 +1,19 @@
+
+import java.util.Scanner;
+
 public class mulFloat {
     public static void main(String[] args) {
-        float f1 = 1.5f;
-        float f2 = 2.0f;
+        // multiply two floating points
+
+        Scanner f = new Scanner(System.in);
+        Scanner fn = new Scanner(System.in);
+
+        // taking input from user
+        System.out.print("Enter first float number: ");
+        float f1 = f.nextFloat();
+
+        System.out.print("Enter second floating number: ");
+        float f2 = fn.nextFloat();
  
         // to store the multiplied value
         float p = f1 * f2;
